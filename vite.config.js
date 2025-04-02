@@ -7,6 +7,7 @@ export default defineConfig({
   server:{
     host: "0.0.0.0",
     port: 8000,
+    allowedHosts: ["letsconnect-2fpb.onrender.com"], // Add your host here
   },
   plugins: [react(), tailwindcss()],
 });
